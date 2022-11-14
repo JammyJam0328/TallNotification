@@ -1,0 +1,15 @@
+
+without traits
+
+$this->dispatchBrowserEvent('confirm',[
+   'title' => 'Are you sure?',
+   'message' => 'This action cannot be undone.',
+   'confirmButtonText' => 'Continue', // default 'Confirm'
+   'cancelButtonText' => 'No', // default 'Cancel',
+   'confirmMethod' => 'confirm', // must register in protected $listeners property of livewire ex. protected $listener = ['confirm'];
+   //'confirmParams' => [],
+   //'cancelMethod' =>'cancel', // must register in protected $listeners property of livewire ex. protected $listener = ['cancel'];
+   //'cancelParams' => $details['reject']['params'] ?? [],
+]);
+
+

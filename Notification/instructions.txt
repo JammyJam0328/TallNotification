@@ -1,0 +1,13 @@
+
+$this->dispatchBrowserEvent('notify',[
+   'type' => 'success',
+   'title' = 'Notification!',
+   'message' =>  'Operation completed successfully.',
+]);
+
+
+//types
+success
+error
+warning
+info
